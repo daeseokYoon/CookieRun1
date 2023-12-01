@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab606003aebe1a42a88429a07d24b2e, type: 3}
+  m_Name: HealSmall
+  m_EditorClassIdentifier: 
+  itemName: HealSmall
+  ItemType: 14
+  itemImage: {fileID: 21300000, guid: bfe9093edb3c72c429bb169b8e09f6a6, type: 3}
+  itemPrefab: {fileID: 2605087707642266256, guid: a41577a63fb145f48ae2f04475a132ff, type: 3}

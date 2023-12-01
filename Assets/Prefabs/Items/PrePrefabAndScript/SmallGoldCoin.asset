@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab606003aebe1a42a88429a07d24b2e, type: 3}
+  m_Name: SmallGoldCoin
+  m_EditorClassIdentifier: 
+  itemName: SmallGoldCoin
+  ItemType: 10
+  itemImage: {fileID: 21300000, guid: 3f43fece112e6fa48a0c2ce65a4d0ec8, type: 3}
+  itemPrefab: {fileID: 9138169398289025631, guid: 25b962b5cd9090f47b398da53be58609, type: 3}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 100,
+    "name": "용감한 쿠키의 3번째 단추",
+    "sprite_name": "treasure01",
+    "content": "체력이 10 증가"
+  },
+  {
+    "id": 101,
+    "name": "팬케이크 쿠키의 종이비행기",
+    "sprite_name": "treasure02",
+    "content": "도토리 젤리의 점수가 400점 증가"
+  },
+  {
+    "id": 102,
+    "name": "달빛술사 쿠키의 소원항아리",
+    "sprite_name": "treasure03",
+    "content": "별가루 젤리의 점수가 400점 증가"
+  },
+  {
+    "id": 103,
+    "name": "엘리스 쿠키의 꿈틀거리는 세포",
+    "sprite_name": "treasure04",
+    "content": "체력 10%로 부활"
+  },
+  {
+    "id": 104,
+    "name": "뱀파이어 쿠키의 포도주스",
+    "sprite_name": "tresure05",
+    "content": "충돌 피해량 5% 감소"
+  }
+]
