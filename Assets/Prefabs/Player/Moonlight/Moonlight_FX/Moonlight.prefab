@@ -523,7 +523,6 @@ MonoBehaviour:
   originSpeed: 0
   dashSpeed: 0
   originSize: {fileID: 0}
-  giganticSize: 0
   jumpPower: 16
   topTime: 0.8
   topPos: {fileID: 6246924043882406242, guid: 8703e8fe0f3fe4343b3fc0e9baccd6d0, type: 3}
@@ -536,16 +535,17 @@ MonoBehaviour:
   groundCheckDistance: 0.5
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   wallCheck: {fileID: 4100748294655838418}
   wallCheckDistance: 1.05
   whatIsWall:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   jellyScore: 0
   coinScore: 0
   totalCoinScore: 0
   ishitted: 0
+  isBlinking: 0
   effectAudioClipPath: SoundEff_Large_Energy
   isDashing: 0
   DashDuration: 0
@@ -554,6 +554,7 @@ MonoBehaviour:
   DashTime: 3
   isGigantic: 0
   GiganticSize: 20
+  giganticMaxSize: 0
   OriginalSize: {x: 0, y: 0, z: 0}
   GiganticDuration: 0
   GiganticTime: 3
@@ -599,6 +600,9 @@ MonoBehaviour:
   Jelly: 0
   isSkillon: 0
   SkillBar: {fileID: 6994702340895711741}
+  moonLightStars: {fileID: 0}
+  moonlightStarPos: {fileID: 0}
+  RotateStars: {fileID: 0}
   StarJelly: {fileID: 5776288055369384946, guid: 64d0d698786decc428e156b189384952, type: 3}
   SunflowerJelly: {fileID: 5776288055369384946, guid: 64d0d698786decc428e156b189384952, type: 3}
   StarSpawnPos:

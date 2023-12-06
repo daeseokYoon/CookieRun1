@@ -257,13 +257,13 @@ public class Player : MonoBehaviour
             Damage(5);
         }
 
-        if (collision.gameObject.CompareTag("Air"))
-        {
-            Transform oriPos = GameObject.Find("OriginPos").GetComponent<Transform>();
-            transform.position = oriPos.position;
-            Damage(20);
-            StartCoroutine(isHitted(3));
-        }
+        //if (collision.gameObject.CompareTag("Air"))
+        //{
+        //    Transform oriPos = GameObject.Find("OriginPos").GetComponent<Transform>();
+        //    transform.position = oriPos.position;
+        //    Damage(20); 
+        //    StartCoroutine(isHitted(3));
+        //}
 
         if (collision.gameObject.CompareTag("Item") && collision.gameObject.GetComponent<GetItem>().item.itemName == "HealBig")
         {
